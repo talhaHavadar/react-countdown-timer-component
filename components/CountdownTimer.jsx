@@ -73,7 +73,7 @@ class CountdownTimer extends Component {
     }
 }
 CountdownTimer.propTypes = {
-    endDate: React.PropTypes.instanceOf(Date),
+    endDate: React.PropTypes.instanceOf(Date).isRequired,
     lang: React.PropTypes.string,
     customTickHandler: React.PropTypes.func,
     onlyFunctional: React.PropTypes.bool
